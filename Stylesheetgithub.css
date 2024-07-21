@@ -1,0 +1,83 @@
+/*CSS reset*/
+*{
+  box-sizing: border-box;
+  margin:0;
+  height:0;
+  font-family:monospace;
+}
+
+/*setting background color and height for body*/
+body{
+  background-color:grey;
+  max-height:100vh;
+}
+
+/*setting overall section of github area*/
+.container{
+  max-width:80vw;
+  height:100vh;
+  margin:auto;
+  background-color:rgb(191, 203, 195);
+}
+
+/*setting head section*/
+.head{
+  display:flex;
+  height:90px;
+  background-color:rgb(59, 75, 78);
+}
+.head>i{
+  color:whitesmoke;
+  font-size:40px;
+  justify-content: flex-start;
+  padding:25px 0px;
+  padding-left: 25px;
+}
+.head>p{
+  margin:30px auto;
+  letter-spacing:2px;
+  font-size:30px;
+  color:whitesmoke;
+}
+/*setting css for main section*/
+.main{
+  display:flex;
+}
+
+.aside{
+  border-radius: 20px;
+  background-color: rgb(57, 56, 56);
+  width:300px;
+  height:70vh;
+  margin:60px;
+}
+
+.search{
+  border-radius: 6px;
+  background-color: rgb(57, 56, 56);
+  width:550px;
+  height:6vh;
+  margin:60px;
+  margin-left:80px;
+}
+.box{
+  display:flex;
+  padding:20px;
+}
+.box>div{
+  border-radius: 10px;
+  background-color: rgb(57, 56, 56);
+  margin:10px;
+  margin-right:60px;
+  width:180px;
+  height:130px;
+}
+
+.foot{
+  border-radius: 10px;
+  background-color: rgb(57, 56, 56);
+  width:685px;
+  height:130px;
+  margin-top:200px;
+  margin-left:35px;
+}

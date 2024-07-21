@@ -1,0 +1,114 @@
+/*set the web page padding and margin to zero and box size to border box*/
+*{
+  box-sizing: border-box;
+  margin:0;
+  padding:0;
+  font-family:sans-serif;
+}
+
+body{
+  background-color: black;
+}
+
+.container{
+  border:2px solid black;
+  max-width:60vw;
+  margin:auto;
+}
+
+.boxone{
+  background-color: rgb(85, 83, 83);
+  width: inherit;
+  max-height:200px;
+  text-align: center;
+}
+
+#profile{
+  border : 4px dotted hsl(46, 98%, 46%);
+  border-radius:100px;
+  margin-top:30px;
+}
+
+.boxtwo{
+  height:30px;
+  background-color:rgb(248, 248, 248);
+  text-align: center;
+}
+
+#name{
+  font-weight:500;
+  font-size:50px;
+  display:inline-block;
+  background-color: hsl(46, 98%, 46%);
+  padding:5px 20px;
+  border-radius:3px;
+  margin-top:-20px;
+}
+
+.boxthree{
+  height:25px;
+  width: inherit;
+  background-color:rgb(85, 83, 83);
+}
+
+/*styles for icons*/
+i{
+  color:hsl(46, 98%, 46%);
+  font-size:30px;
+  border:2px solid rgb(85, 83, 83);
+  padding:10px;
+  border-radius: 30px;
+  background-color:rgb(85, 83, 83) ;
+  outline:5px dotted hsl(46, 98%, 46%);
+  margin:10px;
+  margin-left:0;
+}
+
+/*custom range design*/
+.slider {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 200px;
+  height: 7px;
+  outline:none;
+  background: linear-gradient(90deg,hsl(46, 98%, 46%) 70%,#ddd ) ;
+}
+
+.one{
+  background: linear-gradient(90deg,hsl(46, 98%, 46%) 20%,#ddd ) ;
+}
+
+.two{
+  background: linear-gradient(90deg,hsl(46, 98%, 46%) 1%,#ddd ) ;
+}
+
+.slider::-webkit-slider-thumb{
+  -webkit-appearance: none;
+  appearance: none;
+  width : 20px;
+  height:20px;
+  background-color: white;
+  border-radius: 50%;
+  border:3px solid #ddd;
+}
+
+/*divide the contents into two column*/
+.colfirst{
+  background-color: white;
+  column-count:2;
+  column-width: 250px;
+  column-rule:2px solid #ddd;
+  column-gap:5rem;
+  padding:20px;
+  font-size:15px;
+  text-align:justify;
+}
+
+input{
+  float:right;
+  margin-top:5px;
+}
+ul{
+  margin-left:15px;
+}
+
